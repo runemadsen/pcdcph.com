@@ -8,13 +8,15 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "deploy": "static deploy",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@designsystemsinternational/static": "^3.3.10",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^3.8.1",
@@ -33,5 +35,36 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "static": {
+    "profile": "runemadsen",
+    "region": "us-east-1",
+    "buildDir": "public",
+    "shouldRunBuildCommand": true,
+    "buildCommand": "npm run build",
+    "environments": {
+      "production": {
+        "stack": "pcdcph",
+        "bucket": "pcdcph",
+        "fileParams": [
+          {
+            "match": [
+              "!**/*.(html|json)"
+            ],
+            "params": {
+              "CacheControl": "public, max-age=31536000, immutable"
+            }
+          },
+          {
+            "match": [
+              "**/*.(html|json)"
+            ],
+            "params": {
+              "CacheControl": "public, max-age=300"
+            }
+          }
+        ]
+      }
+    }
   }
 }
