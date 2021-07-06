@@ -4,7 +4,21 @@ module.exports = {
     title: "Processing Community Day Copenhagen",
   },
   plugins: [
-    "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          require("postcss-nesting"),
+          require("postcss-custom-properties")({
+            importFrom: "./src/styles/variables.css",
+          }),
+          require("postcss-calc")(),
+          require("postcss-custom-media")({
+            importFrom: "./src/styles/variables.css",
+          }),
+        ],
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
