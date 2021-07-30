@@ -1,0 +1,18 @@
+@custom-media --xxlarge (max-width: 1920px);
+@custom-media --xlarge (max-width: 1440px);
+@custom-media --large (max-width: 1280px);
+@custom-media --medium (max-width: 960px);
+@custom-media --small (max-width: 720px);
+
+:root {
+  --gutter: 5px;
+  --columns: 18;
+  --col: calc((100vw - (var(--margin) * 2)) / var(--columns));
+  --container-width: 1400px;
+
+  --processing-light: #85aeff;
+  --processing-mid: #0468ff;
+  --processing-dark: #1f34ab;
+
+  --gray-light: #fafafa;
+}
