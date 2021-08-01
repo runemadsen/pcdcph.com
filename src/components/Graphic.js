@@ -4,7 +4,7 @@ import * as css from './Graphic.module.css';
 
 const Graphic = () => {
   return (
-    <svg className={css.root} width="1440" height="400">
+    <svg className={css.root} viewBox="0 0 1440 400">
       <defs>
         <pattern
           id="pattern"
@@ -31,6 +31,20 @@ const Graphic = () => {
         x2={446}
         y2={173}
         stroke="var(--processing-light)"
+        strokeWidth={155}
+      />
+      <line
+        x1={813}
+        y1={-71}
+        x2={509}
+        y2={343}
+        stroke="var(--processing-dark)"
+        strokeWidth={155}
+      />
+      <path
+        d="M 835 -125 C 1141 -125 1141 284 835 284"
+        stroke="var(--processing-mid)"
+        fill="none"
         strokeWidth={155}
       />
     </svg>

@@ -6,7 +6,7 @@ const Head = () => {
     <Helmet>
       <meta charSet="utf-8" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link
         href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Space+Mono&display=swap"
         rel="stylesheet"

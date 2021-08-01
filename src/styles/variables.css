@@ -1,18 +1,52 @@
 @custom-media --xxlarge (max-width: 1920px);
 @custom-media --xlarge (max-width: 1440px);
-@custom-media --large (max-width: 1280px);
+@custom-media --large (max-width: 1200px);
 @custom-media --medium (max-width: 960px);
 @custom-media --small (max-width: 720px);
 
 :root {
+  --sans-serif: 'Space Grotesk', sans-serif;
+  --monospace: 'Space Mono', monospace;
+
+  --margin: 36px;
   --gutter: 5px;
-  --columns: 18;
+  --columns: 16;
   --col: calc((100vw - (var(--margin) * 2)) / var(--columns));
-  --container-width: 1400px;
+  --container-width: 1600px;
 
   --processing-light: #85aeff;
   --processing-mid: #0468ff;
   --processing-dark: #1f34ab;
-
   --gray-light: #fafafa;
+
+  --col1: calc(100% / 16);
+  --col2: calc(100% / 16 * 2);
+  --col3: calc(100% / 16 * 3);
+  --col4: calc(100% / 16 * 4);
+  --col5: calc(100% / 16 * 5);
+  --col6: calc(100% / 16 * 6);
+  --col7: calc(100% / 16 * 7);
+  --col8: calc(100% / 16 * 8);
+  --col9: calc(100% / 16 * 9);
+  --col10: calc(100% / 16 * 10);
+  --col11: calc(100% / 16 * 11);
+  --col12: calc(100% / 16 * 12);
+  --col13: calc(100% / 16 * 13);
+  --col14: calc(100% / 16 * 14);
+  --col15: calc(100% / 16 * 15);
+  --col16: calc(100% / 16 * 16);
+}
+
+@media (--reduced) {
+  :root {
+    --margin: 24px;
+    --gutter: 16px;
+  }
+}
+
+@media (--small) {
+  :root {
+    --margin: 10px;
+    --gutter: 8px;
+  }
 }

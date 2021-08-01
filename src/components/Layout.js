@@ -6,14 +6,12 @@ import 'sanitize.css';
 import '../styles/variables.css';
 import '../styles/base.css';
 
-import * as grid from '../styles/grid.module.css';
-
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   return (
-    <div>
+    <div className={className}>
       <Head />
       <Graphic />
-      <div className={grid.container}>{children}</div>
+      {children}
     </div>
   );
 };
