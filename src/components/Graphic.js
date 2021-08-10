@@ -1,8 +1,10 @@
 import React, { memo } from 'react';
+import { useFontsReady } from '../hooks';
 
 import * as css from './Graphic.module.css';
 
 const Graphic = () => {
+  useFontsReady();
   return (
     <svg className={css.root} viewBox="0 0 1440 400">
       <defs>
