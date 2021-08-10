@@ -5,6 +5,9 @@ import * as css from './Graphic.module.css';
 
 const Graphic = () => {
   const fontsReady = useFontsReady();
+  if (!fontsReady) {
+    return null;
+  }
   return (
     <svg className={css.root} viewBox="0 0 1440 400">
       <defs>
@@ -21,14 +24,12 @@ const Graphic = () => {
           </text>
         </pattern>
       </defs>
-      {fontsReady && (
-        <rect
-          fill={`url(#pattern)`}
-          width="150%"
-          height="100%"
-          transform="translate(-100 0) rotate(-5)"
-        />
-      )}
+      <rect
+        fill={`url(#pattern)`}
+        width="150%"
+        height="100%"
+        transform="translate(-100 0) rotate(-5)"
+      />
       <line
         x1={348}
         y1={-30}
