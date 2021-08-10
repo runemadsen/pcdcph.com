@@ -4,7 +4,7 @@ import { useFontsReady } from '../hooks';
 import * as css from './Graphic.module.css';
 
 const Graphic = () => {
-  useFontsReady();
+  const fontsReady = useFontsReady();
   return (
     <svg className={css.root} viewBox="0 0 1440 400">
       <defs>
@@ -21,12 +21,14 @@ const Graphic = () => {
           </text>
         </pattern>
       </defs>
-      <rect
-        fill={`url(#pattern)`}
-        width="150%"
-        height="100%"
-        transform="translate(-100 0) rotate(-5)"
-      />
+      {fontsReady && (
+        <rect
+          fill={`url(#pattern)`}
+          width="150%"
+          height="100%"
+          transform="translate(-100 0) rotate(-5)"
+        />
+      )}
       <line
         x1={348}
         y1={-30}
