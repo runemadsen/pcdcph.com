@@ -6,6 +6,7 @@ import * as css from '../styles/pages/index.module.css';
 import * as grid from '../styles/grid.module.css';
 
 import kadk from '../images/kadk.svg';
+import ida from '../images/ida.png';
 
 const IndexPage = () => {
   return (
@@ -51,6 +52,10 @@ const IndexPage = () => {
               <img src={kadk} />
               Institute of Visual Design at The Royal Danish Academy -
               Architecture, Design, Conservation
+            </li>
+            <li>
+              <img src={ida} />
+              IDA: The Danish Society of Engineers
             </li>
           </ul>
         </div>
