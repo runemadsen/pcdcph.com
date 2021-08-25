@@ -72,13 +72,23 @@
   }
 }
 
-.comingSoon {
-  font-size: 15px;
-}
-
 .text {
   margin-left: calc(var(--col3) + var(--gutter));
   flex-basis: var(--col8);
+}
+
+.register {
+  background-color: var(--processing-dark);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.disclaimer {
+  font-size: 12px;
 }
 
 @media (--large) {

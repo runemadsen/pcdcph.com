@@ -38,8 +38,17 @@ const IndexPage = () => {
             </p>
             <h3>Where?</h3>
             <p>The Royal Danish Academy - Architecture, Design, Conservation</p>
-            <p className={css.comingSoon}>
-              Event registration details coming soon.
+            <a
+              className={css.register}
+              target="_blank"
+              rel="noreferrer"
+              href="https://ida.dk/arrangementer-og-kurser/arrangementer/processing-community-day-copenhagen-341578"
+            >
+              Register
+            </a>
+            <p className={css.disclaimer}>
+              This link opens in a new window as registration for this event is
+              handled through IDA's website.
             </p>
           </div>
         </div>
