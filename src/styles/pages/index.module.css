@@ -75,6 +75,28 @@
 .text {
   margin-left: calc(var(--col3) + var(--gutter));
   flex-basis: var(--col8);
+
+  & ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    & li {
+      margin-bottom: 10px;
+    }
+
+    & strong {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    & ul {
+      margin-left: 20px;
+      font-size: 18px;
+    }
+  }
 }
 
 .register {

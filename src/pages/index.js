@@ -19,7 +19,7 @@ const IndexPage = () => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#open-call">Open Call</a>
+                <a href="#program">Program</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -37,7 +37,11 @@ const IndexPage = () => {
               10:00 - 15:00
             </p>
             <h3>Where?</h3>
-            <p>The Royal Danish Academy - Architecture, Design, Conservation</p>
+            <p>
+              The Royal Danish Academy - Architecture, Design, Conservation
+              <br />
+              Building 53/J
+            </p>
             <a
               className={css.register}
               target="_blank"
@@ -97,44 +101,55 @@ const IndexPage = () => {
             otherwise have access to these tools and resources.
           </p>
         </div>
-        <div className={classnames(grid.col, css.text)} id="open-call">
-          <h2>Open Call</h2>
-          <p>
-            Processing Community Day Copenhagen is looking for
-            artists/designers/creative practitioners/computer
-            scientists/amateurs or anyone in general who has an interest in code
-            and would like to show and tell about their software-based project.
-          </p>
+        <div className={classnames(grid.col, css.text)} id="program">
+          <h2>Program</h2>
 
-          <p>
-            We are interested in all sorts of projects: art, design, graphics,
-            sound, text, poetry, interaction design, experience design, product
-            design, installations, to name a few. Although we primarily focus on
-            Processing and p5.js, other programming languages are also more than
-            welcome.
-          </p>
+          <ul>
+            <li>
+              10:00 <strong>Welcome</strong>
+            </li>
+            <li>
+              10:20 <strong>Workshops</strong>
+            </li>
+            <ul>
+              <li>
+                Workshop 1: Beginner workshop in Processing with Anne Mette
+                Møller Hartelius
+              </li>
+              <li>Workshop 2: Live coding in Improviz with Søren Peter</li>
+            </ul>
+          </ul>
 
-          <p>
-            Our goal is to showcase a wide range of projects and people, and to
-            discuss how everyone can work and think differently with code. We
-            are open to everything, from the very simple and fun projects to
-            complex cross-disciplinary productions.
-          </p>
+          <ul>
+            <li>
+              12:00 <strong>Break + free sandwich</strong>
+            </li>
+          </ul>
 
-          <p>
-            We have 8 places for the show and tell session. Each presenter will
-            have a maximum of 15 minutes to present one (or more) project(s).
-            Though slides are perfectly fine, live demos are encouraged.
-          </p>
+          <ul>
+            <li>
+              13:00 <strong>Lightning talks</strong>
+            </li>
+            <ul>
+              <li>
+                Louise Foo + Halfdan Hauch Jensen: Description coming soon
+              </li>
+              <li>Louise Lessel: Shaders in P5js</li>
+              <li>Marius Juul Nielsen: Processing for live performances</li>
+              <li>Tom-Lucas Säger: Design & AI</li>
+              <li>
+                Carl Emil Carlsen: Audiovisual interactive experiences in
+                Processing & Unity
+              </li>
+              <li>Mirabelle Jones: Immersive interactive storytelling</li>
+            </ul>
+          </ul>
 
-          <p>
-            If you are interested in participating, please send an email with a
-            brief description of yourself and your project to{' '}
-            <a href="mailto:organizer@pcdcph.com">organizer@pcdcph.com</a>. The
-            deadline for the open call is September 10th, 2021. Selected
-            presenters will be notified directly. PCD@Copenhagen operates on a
-            "sharing is caring" principle, so there is no fee for presenting.
-          </p>
+          <ul>
+            <li>
+              15:00 <strong>Goodbye</strong>
+            </li>
+          </ul>
         </div>
         <div className={classnames(grid.col, css.text)} id="contact">
           <h2>Contact</h2>
