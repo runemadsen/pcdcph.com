@@ -38,7 +38,13 @@ const IndexPage = () => {
             </p>
             <h3>Where?</h3>
             <p>
-              The Royal Danish Academy - Architecture, Design, Conservation
+              The Royal Danish Academy
+              <br />
+              Architecture, Design, Conservation
+              <br />
+              <a href="https://www.google.com/maps/place/Danneskiold-Sams%C3%B8es+All%C3%A9+53,+1434+K%C3%B8benhavn/@55.682198,12.6050285,19z/data=!4m5!3m4!1s0x465253258eb97c81:0xe37091a1d2402a0d!8m2!3d55.6822714!4d12.6052337?fbclid=IwAR2nhzA7LAV0jIZ56c3vnDU9tX8HDAW2unKW-2TjWKlR_c2enf6gylvcPYY">
+                Danneskiold-Samsøes Allé 53
+              </a>
               <br />
               Building 53/J
             </p>
