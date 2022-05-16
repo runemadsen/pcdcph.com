@@ -5,23 +5,21 @@ import classnames from 'classnames';
 import * as css from '../styles/pages/index.module.css';
 import * as grid from '../styles/grid.module.css';
 
-import dmjx from '../images/dmjx.png';
+import kadk from '../images/kadk.svg';
 import ida from '../images/ida.png';
-import kp from '../images/kp.png';
-import shiffman from '../images/shiffman.png';
 
 const IndexPage = () => {
   return (
-    <Layout year="2022" className={css.root}>
+    <Layout className={css.root}>
       <div className={css.header}>
         <div className={classnames(grid.container, grid.grid)}>
           <div className={classnames(grid.col, css.menu)}>
             <ul>
               <li>
-                <a href="#program">Program</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#program">Program</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -34,26 +32,27 @@ const IndexPage = () => {
           <div className={classnames(grid.col, css.info)}>
             <h3>When?</h3>
             <p>
-              June 14th, 2022
+              October 2nd, 2021
               <br />
-              16:00 - 21:00
+              10:00 - 15:00
             </p>
             <h3>Where?</h3>
             <p>
-              University College Copenhagen
+              The Royal Danish Academy
               <br />
-              <a href="https://www.google.dk/maps/place/University+College+Copenhagen/@55.6642507,12.5359436,17z/data=!3m1!4b1!4m5!3m4!1s0x46525254546b1fab:0xf4f7116f37351b1d!8m2!3d55.6642507!4d12.5359436">
-                Carlsberg Campus
+              Architecture, Design, Conservation
+              <br />
+              <a href="https://www.google.com/maps/place/Danneskiold-Sams%C3%B8es+All%C3%A9+53,+1434+K%C3%B8benhavn/@55.682198,12.6050285,19z/data=!4m5!3m4!1s0x465253258eb97c81:0xe37091a1d2402a0d!8m2!3d55.6822714!4d12.6052337?fbclid=IwAR2nhzA7LAV0jIZ56c3vnDU9tX8HDAW2unKW-2TjWKlR_c2enf6gylvcPYY">
+                Danneskiold-Samsøes Allé 53
               </a>
               <br />
-              Humletorvet 3<br />
-              1799 København V
+              Building 53/J
             </p>
             <a
               className={css.register}
               target="_blank"
               rel="noreferrer"
-              href="https://ida.dk/arrangementer-og-kurser/arrangementer/processing-community-day-copenhagen-2022-345170"
+              href="https://ida.dk/arrangementer-og-kurser/arrangementer/processing-community-day-copenhagen-341578"
             >
               Register
             </a>
@@ -68,45 +67,15 @@ const IndexPage = () => {
         <div className={classnames(grid.col, css.text)}>
           <ul className={css.partners}>
             <li>Presented in partnership with</li>
-            <li className={css.partnerLogos}>
-              <a href="https://ida.dk/" className={css.ida}>
-                <img src={ida} />
-              </a>
-              <a href="https://www.dmjx.dk/" className={css.dmjx}>
-                <img src={dmjx} />
-              </a>
-              <a href="https://www.kp.dk/en/" className={css.kp}>
-                <img src={kp} />
-              </a>
+            <li className={css.partnerSplit}>
+              <img src={kadk} />
+              Institute of Visual Design at The Royal Danish Academy
+            </li>
+            <li className={css.partnerSplit}>
+              <img src={ida} />
+              IDA: The Danish Society of Engineers
             </li>
           </ul>
-        </div>
-        <div className={classnames(grid.col, css.text)} id="program">
-          <h2>Program</h2>
-          <img src={shiffman} />
-          <p>
-            This year we have the pleasure of welcoming{' '}
-            <a href="https://shiffman.net/">Daniel Shiffman</a> to lead a
-            workshop at Processing Community Day Copenhagen. Daniel is the host
-            of{' '}
-            <a href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">
-              The Coding Train YouTube channel
-            </a>{' '}
-            where he teaches concepts of programming in a fun and approachable
-            way to 1.5 million subscribers. The Coding Train is a community
-            welcoming beginner programmers and code-curious individuals to try
-            their hand at expressing themselves with code, and the channel
-            provides online educational content as sequenced video playlists,
-            one-off video tutorials, and live streaming events. Daniel also
-            teaches at the Interactive Telecommunications Program at NYU’s Tisch
-            School of the Arts and serves on the Board of Directors of The
-            Processing Foundation.
-          </p>
-
-          <p>
-            More workshops and lightning talks will be announced as we get
-            closer to the event.
-          </p>
         </div>
         <div className={classnames(grid.col, css.text)} id="about">
           <h2>About the Event</h2>
@@ -136,6 +105,56 @@ const IndexPage = () => {
             accessible to diverse communities, especially those who might not
             otherwise have access to these tools and resources.
           </p>
+        </div>
+        <div className={classnames(grid.col, css.text)} id="program">
+          <h2>Program</h2>
+
+          <ul>
+            <li>
+              10:00 <strong>Welcome</strong>
+            </li>
+            <li>
+              10:20 <strong>Workshops</strong>
+            </li>
+            <ul>
+              <li>
+                Workshop 1: Beginner workshop in Processing with Anne Mette
+                Møller Hartelius
+              </li>
+              <li>Workshop 2: Live coding in Improviz with Søren Peter</li>
+            </ul>
+          </ul>
+
+          <ul>
+            <li>
+              12:00 <strong>Break + free sandwich</strong>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              13:00 <strong>Lightning talks</strong>
+            </li>
+            <ul>
+              <li>
+                Louise Foo + Halfdan Hauch Jensen: Description coming soon
+              </li>
+              <li>Louise Lessel: Shaders in P5js</li>
+              <li>Marius Juul Nielsen: Processing for live performances</li>
+              <li>Tom-Lucas Säger: Design & AI</li>
+              <li>
+                Carl Emil Carlsen: Audiovisual interactive experiences in
+                Processing & Unity
+              </li>
+              <li>Mirabelle Jones: Immersive interactive storytelling</li>
+            </ul>
+          </ul>
+
+          <ul>
+            <li>
+              15:00 <strong>Goodbye</strong>
+            </li>
+          </ul>
         </div>
         <div className={classnames(grid.col, css.text)} id="contact">
           <h2>Contact</h2>

@@ -3,7 +3,7 @@ import { useFontsReady } from '../hooks';
 
 import * as css from './Graphic.module.css';
 
-const Graphic = () => {
+const Graphic = ({ year }) => {
   const fontsReady = useFontsReady();
   if (!fontsReady) {
     return null;
@@ -15,12 +15,12 @@ const Graphic = () => {
           id="pattern"
           x={0}
           y="100%"
-          width={218}
+          width={223}
           height={40}
           patternUnits="userSpaceOnUse"
         >
           <text x={0} y={32} fontSize={32} fill="var(--processing-dark)">
-            PCD CPH 2021
+            PCD CPH {year}
           </text>
         </pattern>
       </defs>
