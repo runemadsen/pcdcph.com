@@ -11,6 +11,11 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta
+          property="og:title"
+          content="Processing Community Day Copenhagen"
+        />
+        <meta property="og:image" content="https://pcdcph.com/share.png" />
         {props.headComponents}
         <script
           src="https://cdn.usefathom.com/script.js"

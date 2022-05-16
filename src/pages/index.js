@@ -105,7 +105,8 @@ const IndexPage = () => {
 
           <p>
             More workshops and lightning talks will be announced as we get
-            closer to the event.
+            closer to the event. Do you have something to share? Please{' '}
+            <a href="mailto:organizer@pcdcph.com">get in touch</a>!
           </p>
         </div>
         <div className={classnames(grid.col, css.text)} id="about">
