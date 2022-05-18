@@ -40,54 +40,22 @@
   flex-basis: calc(var(--col9));
 }
 
-.partners {
+.text .partners {
   margin-top: 40px;
   list-style-type: none;
   padding: 0;
   opacity: 0.6;
 
   & li {
-    margin-bottom: 30px;
-  }
-}
-
-.partnerSplit {
-  & li {
     display: flex;
-    max-width: 500px;
+    align-items: center;
+    margin-bottom: 30px;
+
+    & a {
+      flex: 0 0 100px;
+      margin-right: 20px;
+    }
   }
-
-  & img {
-    width: 50px;
-    height: auto;
-    margin-right: 15px;
-  }
-}
-
-.partnerLogos {
-  display: flex;
-  align-items: center;
-
-  & a {
-    margin-right: 30px;
-  }
-
-  & img {
-    max-height: 100px;
-    max-width: 100%;
-  }
-}
-
-a.kp img {
-  max-height: 70px;
-}
-
-a.dmjx img {
-  max-height: 80px;
-}
-
-a.ida img {
-  max-height: 90px;
 }
 
 .info {

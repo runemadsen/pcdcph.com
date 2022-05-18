@@ -42,6 +42,8 @@ const IndexPage = () => {
             <p>
               University College Copenhagen
               <br />
+              Department of Didactics and Digitalisation
+              <br />
               <a href="https://www.google.dk/maps/place/University+College+Copenhagen/@55.6642507,12.5359436,17z/data=!3m1!4b1!4m5!3m4!1s0x46525254546b1fab:0xf4f7116f37351b1d!8m2!3d55.6642507!4d12.5359436">
                 Carlsberg Campus
               </a>
@@ -66,18 +68,29 @@ const IndexPage = () => {
       </div>
       <div className={classnames(grid.container, grid.grid)}>
         <div className={classnames(grid.col, css.text)}>
+          <h2>Presented in partnership with</h2>
           <ul className={css.partners}>
-            <li>Presented in partnership with</li>
-            <li className={css.partnerLogos}>
+            <li>
               <a href="https://ida.dk/" className={css.ida}>
                 <img src={ida} />
               </a>
+              <p>The Danish Society of Engineers</p>
+            </li>
+            <li>
               <a href="https://www.dmjx.dk/" className={css.dmjx}>
                 <img src={dmjx} />
               </a>
+              <p>Danish School of Media and Journalism</p>
+            </li>
+            <li>
               <a href="https://www.kp.dk/en/" className={css.kp}>
                 <img src={kp} />
               </a>
+              <p>
+                University College Copenhagen
+                <br />
+                Department of Didactics and Digitalisation
+              </p>
             </li>
           </ul>
         </div>
