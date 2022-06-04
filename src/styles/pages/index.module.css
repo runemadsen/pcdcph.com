@@ -96,7 +96,9 @@
     }
 
     & ul {
+      margin-top: 10px;
       margin-left: 20px;
+      margin-bottom: 15px;
       font-size: 18px;
     }
   }

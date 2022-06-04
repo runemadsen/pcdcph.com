@@ -96,31 +96,104 @@ const IndexPage = () => {
         </div>
         <div className={classnames(grid.col, css.text)} id="program">
           <h2>Program</h2>
-          <img src={shiffman} />
-          <p>
-            This year we have the pleasure of welcoming{' '}
-            <a href="https://shiffman.net/">Daniel Shiffman</a> to lead a
-            workshop at Processing Community Day Copenhagen. Daniel is the host
-            of{' '}
-            <a href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">
-              The Coding Train YouTube channel
-            </a>{' '}
-            where he teaches concepts of programming in a fun and approachable
-            way to 1.5 million subscribers. The Coding Train is a community
-            welcoming beginner programmers and code-curious individuals to try
-            their hand at expressing themselves with code, and the channel
-            provides online educational content as sequenced video playlists,
-            one-off video tutorials, and live streaming events. Daniel also
-            teaches at the Interactive Telecommunications Program at NYU’s Tisch
-            School of the Arts and serves on the Board of Directors of The
-            Processing Foundation.
-          </p>
 
           <p>
-            More workshops and lightning talks will be announced as we get
-            closer to the event. Do you have something to share? Please{' '}
-            <a href="mailto:organizer@pcdcph.com">get in touch</a>!
+            This year, we are trying something new! Rather than running
+            simultaneous workshops, we will start with a beginners workshop
+            before continuing to an intermediate workshop and lightning talks.
+            Participants are welcome to show up at either 16:00 or 17:00
+            depending on skill level and interest. More experiences programmers
+            are encouraged to participate in the beginners workshop as helping
+            hands.
           </p>
+
+          <ul>
+            <li>
+              16:00 <strong>Unofficial welcome</strong>
+              <ul>
+                <li>
+                  A quick, unofficial welcome to the participants in the
+                  beginners workshop. More experienced programmers are welcome
+                  to join to help less experienced participants during the
+                  beginners workshop.
+                </li>
+              </ul>
+            </li>
+            <li>
+              16:05 <strong>Beginners Workshop w. Stig Møller Hansen</strong>
+            </li>
+            <li>
+              16:50 <strong>Short break</strong>
+            </li>
+            <li>
+              17:00 <strong>Official welcome</strong>
+            </li>
+            <li>
+              17:05 <strong>Workshop w. Daniel Shiffman</strong>
+              <ul>
+                <li>
+                  Daniel is the host of{' '}
+                  <a href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">
+                    The Coding Train YouTube channel
+                  </a>{' '}
+                  where he teaches concepts of programming in a fun and
+                  approachable way to 1.5 million subscribers. The Coding Train
+                  is a community welcoming beginner programmers and code-curious
+                  individuals to try their hand at expressing themselves with
+                  code, and the channel provides online educational content as
+                  sequenced video playlists, one-off video tutorials, and live
+                  streaming events. Daniel also teaches at the Interactive
+                  Telecommunications Program at NYU’s Tisch School of the Arts
+                  and serves on the Board of Directors of The Processing
+                  Foundation.
+                </li>
+              </ul>
+            </li>
+            <li>
+              18:10 <strong>Break + free sandwiches</strong>
+            </li>
+            <li>
+              18:40 <strong>Lightning talks</strong>
+              <ul>
+                <li>
+                  Ada Ada Ada is a hybrid artist working within an
+                  intersectional eco-feminist framework. She uses hyped
+                  technologies like AI, blockchain and more to challenge
+                  cultural preconceptions and technologically enforced power
+                  structures.
+                </li>
+                <li>Nicolaj Stausbøl</li>
+                <li>
+                  Jen Sykes is an artist, designer and lecturer based in
+                  Glasgow, Scotland. Her work spans creative computing,
+                  sculpture and electronic hardware designs often connecting the
+                  physical analog and digital worlds.
+                </li>
+                <li>Johan Bichel</li>
+                <li>
+                  Emil Berzén is a Swedish Creative Technologist who specialises
+                  in augmented reality and interactive installations. With
+                  experience embodying both digital and physical experimental
+                  motion, he has created installations for clients ranging from
+                  museums to the fashion industry.
+                </li>
+                <li>
+                  Vibeke Bertelsen is a cofounder of creative studio Vertigo who
+                  has worked with light art installations since 2011. Her talk
+                  is a look at the current state of machine learning in relation
+                  to image generation. Vibeke will give a sneak peek at cutting
+                  edge tools for creating images but will also take a critical
+                  look at this technology.
+                </li>
+                <li>Svend Sømod</li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              20:55 <strong>Goodbye</strong>
+            </li>
+          </ul>
         </div>
         <div className={classnames(grid.col, css.text)} id="about">
           <h2>About the Event</h2>
