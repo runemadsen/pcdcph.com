@@ -120,7 +120,23 @@ const IndexPage = () => {
               </ul>
             </li>
             <li>
-              16:05 <strong>Beginners Workshop w. Stig Møller Hansen</strong>
+              16:05 <strong>Beginner workshop w. Stig Møller Hansen</strong>
+              <ul>
+                <li>
+                  This workshop is for absolute beginners, or people who have
+                  only dabbled with programming for fun. The workshop uses the
+                  p5.js web editor to teach basic programming concepts through
+                  the creation of visual forms. The workshop's two goals are: 1)
+                  to demystify and break down any misconceptions that
+                  programming is a difficult activity, and 2) to give
+                  participants an insight into the huge creative potential that
+                  lies in being able to think and create with code. Bring your
+                  own (fully charged) laptop. It is also recommended to create a
+                  free account at{' '}
+                  <a href="https://editor.p5js.org/">editor.p5js.org</a>{' '}
+                  beforehand.
+                </li>
+              </ul>
             </li>
             <li>
               16:50 <strong>Short break</strong>
@@ -129,7 +145,7 @@ const IndexPage = () => {
               17:00 <strong>Official welcome</strong>
             </li>
             <li>
-              17:05 <strong>Workshop w. Daniel Shiffman</strong>
+              17:05 <strong>Intermediate workshop w. Daniel Shiffman</strong>
               <ul>
                 <li>
                   Daniel is the host of{' '}
@@ -162,7 +178,15 @@ const IndexPage = () => {
                   cultural preconceptions and technologically enforced power
                   structures.
                 </li>
-                <li>Nicolaj Stausbøl</li>
+                <li>
+                  Nicolaj Stausbøl (or Staus) is a Creative Technology Director
+                  & Partner at Manyone with a focus on Spatial Computing, AR/VR
+                  and, lately, synthetic design with Machine Learning. His work
+                  mainly focus on theatrical immersion, like the physical VR
+                  documentary "X-Ray Fashion", the 1hr long 200m2 VR piece
+                  Anthrophia and the persistent provocative AR opera, "Silent
+                  Zone: Echo Chamber".
+                </li>
                 <li>
                   Jen Sykes is an artist, designer and lecturer based in
                   Glasgow, Scotland. Her work spans creative computing,
