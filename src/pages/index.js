@@ -145,7 +145,7 @@ const IndexPage = () => {
               17:00 <strong>Official welcome</strong>
             </li>
             <li>
-              17:05 <strong>Intermediate workshop w. Daniel Shiffman</strong>
+              17:10 <strong>Intermediate workshop w. Daniel Shiffman</strong>
               <ul>
                 <li>
                   Daniel is the host of{' '}
@@ -193,7 +193,6 @@ const IndexPage = () => {
                   sculpture and electronic hardware designs often connecting the
                   physical analog and digital worlds.
                 </li>
-                <li>Johan Bichel</li>
                 <li>
                   Emil Berzén is a Swedish Creative Technologist who specialises
                   in augmented reality and interactive installations. With
@@ -209,7 +208,12 @@ const IndexPage = () => {
                   edge tools for creating images but will also take a critical
                   look at this technology.
                 </li>
-                <li>Svend Sømod</li>
+                <li>
+                  Svend Sømod is a multidisciplinary artist working around
+                  mathematics and experience. Coming from a fine arts education,
+                  but working in a wide spectrum of fields such as graphic
+                  design and mixology.
+                </li>
               </ul>
             </li>
           </ul>
