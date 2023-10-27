@@ -10,6 +10,11 @@ import ida from '../images/ida.png';
 import kp from '../images/kp.png';
 import selcuk from '../images/selcuk.jpg';
 import tim from '../images/tim.jpg';
+import anna from '../images/anna.png';
+import majken from '../images/majken.jpg';
+import frederik from '../images/frederik.jpg';
+import tameem from '../images/tameem.jpg';
+import astrid from '../images/astrid.jpg';
 
 const IndexPage = () => {
   return (
@@ -142,6 +147,82 @@ const IndexPage = () => {
             Avant-Garde music band Replikas since 1998. In 2016, Artut founded
             an audio-visual performance duo named RAW which produces works
             through creative coding and live-coding techniques.
+          </p>
+
+          <p>
+            Lightning Talk <strong>Anna Shams Ili</strong>
+          </p>
+
+          <img src={anna} />
+
+          <p>
+            Anna (she/her) is a co-founder and member of the collective CURSOR -
+            a Copenhagen-based platform reimagining tech and society through an
+            intersectional feminist lens. She is responsible for the digital
+            aspects of CURSOR, and ran the first CURSOR Creative Coding Camp in
+            spring 2023. CURSOR hosts a variety of events and publishes a
+            biannual magazine, the current theme of which is "Attention!"
+          </p>
+
+          <p>
+            Lightning Talk <strong>Majken Overgaard</strong>
+          </p>
+
+          <img src={majken} />
+
+          <p>
+            Majken works as an independent curator and writer. Throughout her
+            career Overgaard has focused on synergies between technology and
+            contemporary art. The overall goal has been to explore the
+            transdisciplinary universe, where art, science and technology
+            intersect and form a creative environment for the development of new
+            ideas, experiments and inventions. Her curatorial practice centers
+            around feminist and democratic ideals - bringing together artists of
+            diverse genders, ethnicities and cultural backgrounds.
+          </p>
+
+          <p>
+            Lightning Talk <strong>Frederik Krogh</strong>
+          </p>
+
+          <img src={frederik} />
+
+          <p>
+            Frederik Krogh is a self-taught designer, visual artist, programmer
+            and musician. Playing with geometry, color, type, animation and
+            code, the ambition is to create something great yet simple, with or
+            without technology.
+          </p>
+
+          <p>
+            Lightning Talk <strong>Astrid Jakobsen</strong>
+          </p>
+
+          <img src={astrid} />
+
+          <p>
+            Astrid is an Interactive Design student at The Danish School of
+            Media and Journalism. Her passion for design is rooted in a lifelong
+            interest in everything that draws her attention visually. She wants
+            to unite the simple but yet surprising elements of great design by
+            using motion design and creative coding, and although she is not an
+            experienced programmer, a curiosity for the potential that code has
+            is what drives her.
+          </p>
+
+          <p>
+            Lightning Talk <strong>Tameem Sankari</strong>
+          </p>
+
+          <img src={tameem} />
+
+          <p>
+            Tameem Sankari is a Syrian creative coding artist living in
+            Copenhagen. He combines coding and retro graphics to create
+            contemporary animations with a nostalgic feel. Depicting everyday
+            objects, scenes or moments, Tameem is able to create highly abstract
+            and experimental novel works, whilst still offering the viewer a
+            sense of familiarity.
           </p>
         </div>
         <div className={classnames(grid.col, css.text)} id="about">
