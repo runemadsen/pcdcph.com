@@ -15,6 +15,7 @@ import majken from '../images/majken.jpg';
 import frederik from '../images/frederik.jpg';
 import tameem from '../images/tameem.jpg';
 import astrid from '../images/astrid.jpg';
+import lisa from '../images/lisa.jpg';
 
 const IndexPage = () => {
   return (
@@ -223,6 +224,21 @@ const IndexPage = () => {
             objects, scenes or moments, Tameem is able to create highly abstract
             and experimental novel works, whilst still offering the viewer a
             sense of familiarity.
+          </p>
+
+          <p>
+            Lightning Talk <strong>Lisa Apers</strong>
+          </p>
+
+          <img src={lisa} />
+
+          <p>
+            Lisa Apers is an independent designer & researcher specialised in
+            designing digital experiences across brand, web & product design.
+            After accumulating experience in various startups, corporations and
+            institutions and with a growing interest in both design fiction and
+            different ways of working, she now brings play and research back in
+            her practice to craft more imaginative futures.
           </p>
         </div>
         <div className={classnames(grid.col, css.text)} id="about">
