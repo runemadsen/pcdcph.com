@@ -45,7 +45,10 @@ const IndexPage = () => {
               <br />
               11:00 - 16:00
               <br />
-              After-party at a nearby bar
+              Afterparty at{' '}
+              <a href="https://maps.app.goo.gl/QdaYCxa1zWh6BjtR7">
+                Åben Brewery
+              </a>
             </p>
             <h3>Where?</h3>
             <p>
