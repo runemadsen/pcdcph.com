@@ -5,5 +5,16 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "pcdcph.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.pcdcph.com",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
 }
