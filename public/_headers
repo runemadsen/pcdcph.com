@@ -1,0 +1,11 @@
+# Everything under /_astro/ is content-hashed, so it can be cached forever.
+# The font files are not hashed, so rename one if you ever replace it.
+# Every other route keeps the Workers default of "max-age=0, must-revalidate"
+# with an ETag, so content edits go live at once and revalidation stays cheap.
+# Rules in this file are cumulative, so do not add a /* rule here: it would
+# concatenate onto the rules below instead of replacing them.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

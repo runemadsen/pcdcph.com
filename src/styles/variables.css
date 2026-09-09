@@ -37,13 +37,6 @@
   --col16: calc(100% / 16 * 16);
 }
 
-@media (--reduced) {
-  :root {
-    --margin: 24px;
-    --gutter: 16px;
-  }
-}
-
 @media (--small) {
   :root {
     --margin: 10px;

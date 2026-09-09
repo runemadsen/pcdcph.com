@@ -1,0 +1,19 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Graphic from '../components/Graphic.astro';
+
+interface Props {
+  title: string;
+  year: string;
+  class?: string;
+}
+
+const { title, year, class: className } = Astro.props;
+---
+
+<BaseLayout title={title}>
+  <div class={className}>
+    <Graphic year={year} />
+    <slot />
+  </div>
+</BaseLayout>
