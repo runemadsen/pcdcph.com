@@ -5,6 +5,8 @@ import css from '../styles/pages/index.module.css';
 import grid from '../styles/grid.module.css';
 
 import dmjx from '../images/dmjx.png';
+import nielsotto from '../images/nielsotto.jpg';
+import paulnicholas from '../images/paulnicholas.jpg';
 ---
 
 <Layout
@@ -17,7 +19,7 @@ import dmjx from '../images/dmjx.png';
       <div class:list={[grid.col, css.menu]}>
         <ul>
           <li>
-            <a href="#program">Program</a>
+            <a href="#speakers">Speakers</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -74,9 +76,46 @@ import dmjx from '../images/dmjx.png';
         </li>
       </ul>
     </div>
-    <div class:list={[grid.col, css.text]} id="program">
-      <h2>Program</h2>
-      <p>Program coming soon</p>
+    <div class:list={[grid.col, css.text]} id="speakers">
+      <h2>Speakers</h2>
+
+      <p>More speakers coming soon...</p>
+
+      <p>
+        <strong>Niels Otto Andersen</strong>
+      </p>
+
+      <img src={nielsotto.src} />
+
+      <p>
+        Niels Otto graduated in Interactive Design from DMJX and chose to take
+        the word “interactivity” in its most literal sense. Through sensors,
+        code, lasers, and light, he has created interactive installations,
+        visuals, and laser shows, and even helped design Soundboks’ Light Boks.
+        Today, Niels Otto works at the restaurant Alchemist and teaches Coded
+        Design at DMJX.
+      </p>
+
+      <p>
+        <strong>Paul Nicholas</strong>
+      </p>
+
+      <img src={paulnicholas.src} />
+
+      <p>
+        Paul is an architect, researcher and educator exploring digital –
+        material relations. He is an associate professor at CITA, the Royal
+        Danish Academy, and is currently exploring how advanced computation and
+        robotic fabrication open up alternative modes for architects to think
+        about circularity and sustainability. Paul has an extensive track record
+        of developing cutting edge research in biomaterials, robotic incremental
+        sheet forming, and predictive modelling methods, and has exhibited at
+        the Venice Architecture Biennale in the Arsenale as well as Danish and
+        Australian pavilions. As an educator he is the founder and director of
+        Computation in Architecture, a 2 year international masters program at
+        the Royal Danish Academy that promotes critical and situated thinking
+        about technology.
+      </p>
     </div>
     <div class:list={[grid.col, css.text]} id="about">
       <h2>About the Event</h2>
